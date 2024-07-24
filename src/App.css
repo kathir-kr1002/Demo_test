@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+.design {
+  background: linear-gradient(45deg, #6a11cb 30%, #2575fc 90%);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul li{
+  text-align: center;
+  gap:30px;
+}
+.design ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+}
+
+.design ul li {
+  margin: 0 0.5rem;
+  
+}
+
+.design ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s, transform 0.3s;
+
+}
+
+.design ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+nav.design
+{
+  width:1800px;
+}
+
+.design button {
+  background: white;
+  color: #6a11cb;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.design button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: scale(1.1);
+}
+.move ul
+{
+  display: flex;
+  justify-content: space-evenly;
+  width:100%;
+
+
+}
+/* { di
+    grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+    place-items:center;
+    display: flex;
+   */
+
+
+
